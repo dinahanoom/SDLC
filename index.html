@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Catatan interaktif SDLC, persiapan wawancara kerja, latihan soal, dan tanya jawab.">
+  <title>SDLC Notes — Belajar & Persiapan Interview</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><div class="brand-mark">S</div><div><strong>SDLC Notes</strong><small>Belajar selangkah demi selangkah</small></div></div>
+    <nav id="mainNav" aria-label="Navigasi utama">
+      <button class="nav-link active" data-page="home"><span>⌂</span> Beranda</button>
+      <button class="nav-link" data-page="fundamentals"><span>▤</span> Dasar SDLC</button>
+      <button class="nav-link" data-page="phases"><span>↗</span> Tahapan SDLC</button>
+      <button class="nav-link" data-page="roles"><span>♙</span> Peran & Tugas</button>
+      <button class="nav-link" data-page="interview"><span>✧</span> Persiapan Interview</button>
+      <button class="nav-link" data-page="quiz"><span>✓</span> Latihan Soal</button>
+      <button class="nav-link" data-page="qa"><span>☷</span> Tanya Jawab</button>
+      <button class="nav-link" data-page="admin"><span>⚙</span> Admin / Kelola</button>
+    </nav>
+    <div class="sidebar-bottom"><div class="mini-label">MODE BELAJAR</div><p>Pelajari konsep, pahami alasan, lalu latih cara menjelaskannya.</p><span class="pill">Versi 1.0 · SDLC</span></div>
+  </aside>
+  <main class="main">
+    <header class="topbar"><button class="mobile-menu" id="menuToggle" aria-label="Buka menu">☰</button><div><div class="eyebrow">CATATAN BELAJAR INTERAKTIF</div><h1 id="pageTitle">Beranda</h1></div><div class="top-actions"><span class="online-dot"></span><span id="connectionStatus">Mode lokal</span></div></header>
+    <div class="content">
+      <section class="page active" id="page-home">
+        <div class="hero">
+          <div class="hero-copy"><span class="pill pill-light">PANDUAN SDLC</span><h2>Pahami prosesnya.<br><em>Jawab interview</em> dengan percaya diri.</h2><p>Ringkasan SDLC, peran tim, tugas setiap tahap, pertanyaan wawancara, dan latihan untuk menguji pemahamanmu.</p><button class="btn btn-cream" data-goto="fundamentals">Mulai belajar <span>→</span></button></div>
+          <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="flow-card"><span class="flow-icon">⌕</span><b>Plan</b><small>Understand</small></div><div class="flow-card second"><span class="flow-icon">✎</span><b>Build</b><small>Create</small></div><div class="flow-card third"><span class="flow-icon">✓</span><b>Deliver</b><small>Improve</small></div><div class="hero-center">SDLC<small>from idea to impact</small></div></div>
+        </div>
+        <div class="section-heading"><div><div class="eyebrow">RUTE BELAJAR</div><h2>Mulai dari yang paling penting</h2></div><span class="muted">Belajar mandiri</span></div>
+        <div class="stat-grid"><article class="stat-card"><div class="stat-icon blue">▤</div><div><strong>6 tahap utama</strong><p>Dari perencanaan sampai pemeliharaan</p><button class="text-btn" data-goto="phases">Lihat tahapan →</button></div></article><article class="stat-card"><div class="stat-icon cream">♙</div><div><strong>8 peran umum</strong><p>Kenali tanggung jawab setiap anggota tim</p><button class="text-btn" data-goto="roles">Kenali peran →</button></div></article><article class="stat-card"><div class="stat-icon gold">✓</div><div><strong>Latihan interaktif</strong><p>Uji pemahaman dengan umpan balik</p><button class="text-btn" data-goto="quiz">Mulai latihan →</button></div></article></div>
+        <div class="two-col"><article class="panel"><div class="panel-head"><div><div class="eyebrow">PETA KONSEP</div><h3>Alur berpikir SDLC</h3></div><span class="tag">Ringkas</span></div><div class="concept-list"><div class="concept-row"><span class="number">01</span><div><b>Masalah apa yang ingin diselesaikan?</b><p>Pahami tujuan, pengguna, ruang lingkup, dan batasan.</p></div></div><div class="concept-row"><span class="number">02</span><div><b>Solusi seperti apa yang dibutuhkan?</b><p>Ubah kebutuhan menjadi desain dan rencana teknis.</p></div></div><div class="concept-row"><span class="number">03</span><div><b>Bagaimana membuktikan solusi bekerja?</b><p>Bangun, uji, rilis, pantau, dan perbaiki.</p></div></div></div></article><article class="panel soft-panel"><div class="eyebrow">INGAT SAAT INTERVIEW</div><h3>Jawab dengan struktur, bukan hafalan.</h3><p>Jelaskan <b>apa</b> yang dilakukan, <b>mengapa</b> diperlukan, siapa yang terlibat, dan hasil atau artefak yang dihasilkan.</p><div class="answer-formula"><span>APA</span><i>+</i><span>MENGAPA</span><i>+</i><span>HASIL</span></div><button class="btn btn-primary" data-goto="interview">Lihat contoh jawaban</button></article></div>
+      </section>
+      <section class="page" id="page-fundamentals">
+        <div class="page-intro"><div class="eyebrow">FONDASI</div><h2>Apa itu SDLC?</h2><p>Kenali istilah dasar sebelum masuk ke proses dan peran tim.</p></div>
+        <div class="definition-grid"><article class="panel definition-main"><span class="big-letter">S</span><h3>Software Development Life Cycle</h3><p>SDLC adalah kerangka proses terstruktur untuk merencanakan, menganalisis kebutuhan, merancang, membangun, menguji, merilis, dan memelihara perangkat lunak.</p><p>Tujuannya membantu tim menghasilkan software yang sesuai kebutuhan, berkualitas, terukur, dan dapat dipelihara.</p></article><article class="panel"><h3>Kenapa SDLC penting?</h3><ul class="check-list"><li>Menyamakan pemahaman tim dan stakeholder.</li><li>Mengurangi risiko, pekerjaan ulang, dan miskomunikasi.</li><li>Membantu mengelola waktu, biaya, kualitas, dan perubahan.</li><li>Membuat progres serta tanggung jawab lebih jelas.</li></ul></article></div>
+        <div class="section-heading"><div><div class="eyebrow">ISTILAH YANG SERING MUNCUL</div><h2>Kamus mini</h2></div></div><div class="term-grid" id="termGrid"></div>
+        <article class="panel compare-panel"><h3>Waterfall vs Agile</h3><p class="muted">Keduanya pendekatan kerja; pilihan bergantung pada kebutuhan, risiko, dan konteks proyek.</p><div class="table-wrap"><table><thead><tr><th>Aspek</th><th>Waterfall</th><th>Agile</th></tr></thead><tbody><tr><td>Alur</td><td>Lebih berurutan per fase</td><td>Iteratif dan bertahap</td></tr><tr><td>Perubahan</td><td>Perubahan di tengah proses bisa lebih mahal</td><td>Perubahan dapat ditinjau dalam iterasi</td></tr><tr><td>Umpan balik</td><td>Sering terstruktur pada milestone tertentu</td><td>Sering dan berkelanjutan</td></tr><tr><td>Cocok ketika</td><td>Kebutuhan relatif stabil dan terdefinisi</td><td>Kebutuhan berkembang dan butuh adaptasi</td></tr></tbody></table></div></article>
+      </section>
+      <section class="page" id="page-phases">
+        <div class="page-intro"><div class="eyebrow">PROSES KERJA</div><h2>Tahapan SDLC</h2><p>Model SDLC dapat berbeda. Berikut enam tahap umum yang sering dipakai sebagai peta belajar.</p></div>
+        <div class="phase-layout"><div class="phase-tabs" id="phaseTabs"></div><article class="panel phase-detail" id="phaseDetail"></article></div>
+        <div class="note-callout"><b>Catatan penting</b><p>Testing, keamanan, dokumentasi, dan komunikasi idealnya tidak dianggap hanya muncul di satu tahap. Praktik tersebut dapat berjalan sepanjang siklus pengembangan.</p></div>
+      </section>
+      <section class="page" id="page-roles">
+        <div class="page-intro"><div class="eyebrow">SIAPA MENGERJAKAN APA?</div><h2>Peran dan tanggung jawab</h2><p>Nama jabatan berbeda-beda antarperusahaan. Satu orang bisa memegang beberapa peran, terutama di tim kecil.</p></div>
+        <div class="role-tools"><input id="roleSearch" type="search" placeholder="Cari peran, mis. QA atau analis..." aria-label="Cari peran"><select id="roleFilter" aria-label="Filter kategori"><option value="all">Semua kategori</option><option value="business">Kebutuhan & bisnis</option><option value="technical">Teknis</option><option value="quality">Kualitas & operasi</option><option value="delivery">Pengelolaan</option></select></div><div class="role-grid" id="roleGrid"></div>
+        <article class="panel"><h3>Yang perlu dipahami oleh siapa pun di tim SDLC</h3><div class="three-col"><div><b>Tujuan pengguna</b><p class="muted">Masalah dan nilai yang hendak diberikan produk.</p></div><div><b>Alur kerja</b><p class="muted">Tahap saat ini, dependensi, risiko, dan kriteria selesai.</p></div><div><b>Kualitas</b><p class="muted">Kriteria penerimaan, pengujian, keamanan, dan dokumentasi.</p></div></div></article>
+      </section>
+      <section class="page" id="page-interview">
+        <div class="page-intro"><div class="eyebrow">PERSIAPAN KARIER</div><h2>Persiapan job interview</h2><p>Latih cara berpikir dan menyampaikan jawaban dengan jelas. Jawaban terbaik biasanya spesifik, jujur, dan disesuaikan dengan posisi yang dilamar.</p></div>
+        <div class="interview-layout"><div class="question-list" id="interviewQuestions"></div><article class="panel answer-panel"><div class="eyebrow">CONTOH JAWABAN</div><h3 id="interviewQTitle">Pilih pertanyaan</h3><p id="interviewAnswer">Pilih pertanyaan di sebelah kiri untuk melihat kerangka jawaban dan poin yang sebaiknya disampaikan.</p><div id="interviewTips"></div><button class="btn btn-outline" id="copyAnswer">Salin kerangka jawaban</button></article></div>
+        <div class="section-heading"><div><div class="eyebrow">KERANGKA CERITA PENGALAMAN</div><h2>Gunakan STAR</h2></div></div><div class="star-grid"><div><b>S · Situation</b><p>Jelaskan konteks atau situasinya.</p></div><div><b>T · Task</b><p>Terangkan tanggung jawabmu.</p></div><div><b>A · Action</b><p>Uraikan tindakan yang benar-benar kamu lakukan.</p></div><div><b>R · Result</b><p>Sampaikan hasil, dampak, dan pelajaran.</p></div></div>
+      </section>
+      <section class="page" id="page-quiz">
+        <div class="page-intro"><div class="eyebrow">CEK PEMAHAMAN</div><h2>Latihan soal SDLC</h2><p>Pilih jawaban terbaik. Nilai disimpan di perangkat ini kecuali backend Apps Script sudah dihubungkan.</p></div>
+        <div class="quiz-toolbar"><span class="tag" id="quizCounter">Soal 1</span><span class="muted" id="quizProgressText">0 dijawab</span><button class="btn btn-small btn-outline" id="restartQuiz">Ulangi latihan</button></div><div class="progress-track"><div id="quizProgress" class="progress-fill"></div></div>
+        <article class="panel quiz-card"><div class="eyebrow" id="quizCategory">DASAR SDLC</div><h3 id="quizQuestion">Memuat soal…</h3><div id="quizOptions" class="quiz-options"></div><div id="quizFeedback" class="feedback" hidden></div><div class="quiz-footer"><button class="btn btn-outline" id="prevQuestion">← Sebelumnya</button><button class="btn btn-primary" id="nextQuestion">Berikutnya →</button></div></article><div class="quiz-result panel" id="quizResult" hidden></div>
+      </section>
+      <section class="page" id="page-qa">
+        <div class="page-intro"><div class="eyebrow">BELAJAR DENGAN PERTANYAAN</div><h2>Tanya jawab SDLC</h2><p>Cari jawaban singkat dari pertanyaan umum. Fitur ini bukan chatbot AI; jawaban berasal dari materi yang tersedia.</p></div>
+        <div class="qa-search"><input type="search" id="qaSearch" placeholder="Tanyakan sesuatu, mis. apa tugas QA?" aria-label="Cari pertanyaan"><span>⌕</span></div><div id="qaList" class="qa-list"></div>
+        <article class="panel ask-panel"><div><div class="eyebrow">SARAN MATERI</div><h3>Belum menemukan jawaban?</h3><p class="muted">Kirim pertanyaan untuk ditinjau admin. Jangan kirim data pribadi atau informasi rahasia.</p></div><form id="askForm"><input id="askName" maxlength="60" placeholder="Nama panggilan (opsional)"><textarea id="askText" required maxlength="600" placeholder="Tulis pertanyaanmu…" rows="3"></textarea><button class="btn btn-primary" type="submit">Kirim pertanyaan</button><p class="form-message" id="askMessage" aria-live="polite"></p></form></article>
+      </section>
+      <section class="page" id="page-admin">
+        <div class="page-intro"><div class="eyebrow">PENGELOLAAN MATERI</div><h2>Admin & CRUD</h2><p>Kelola materi, bank soal, dan tanya jawab. Login admin hanya berfungsi aman jika Apps Script backend sudah dikonfigurasi.</p></div>
+        <div class="admin-warning"><b>Keamanan:</b> password tidak ditanam di file HTML/JS. Verifikasi admin dan operasi tulis dilakukan di Apps Script menggunakan Script Properties. Mode lokal hanya untuk pratinjau dan tidak melindungi data bersama.</div>
+        <div id="adminLogin" class="panel admin-login"><h3>Masuk sebagai admin</h3><p class="muted">Masukkan password admin yang telah disetel pada Script Properties Apps Script.</p><form id="loginForm"><label for="adminPassword">Password admin</label><input id="adminPassword" type="password" autocomplete="current-password" required><button class="btn btn-primary" type="submit">Masuk</button><p id="loginMessage" class="form-message" aria-live="polite"></p></form></div>
+        <div id="adminWorkspace" hidden><div class="admin-toolbar"><div><span class="tag" id="adminModeTag">Admin aktif</span><p class="muted">Perubahan materi di backend akan disimpan ke Google Sheets.</p></div><button id="logoutAdmin" class="btn btn-outline">Keluar</button></div><div class="admin-tabs" id="adminTabs"><button class="active" data-admin-tab="questions">Bank soal</button><button data-admin-tab="qa">Tanya jawab</button><button data-admin-tab="notes">Catatan materi</button></div><div class="admin-grid"><article class="panel"><div class="panel-head"><h3 id="editorTitle">Tambah soal</h3><button id="clearEditor" class="text-btn">Kosongkan</button></div><form id="crudForm"><input type="hidden" id="recordId"><label for="fieldTitle">Judul / pertanyaan</label><input id="fieldTitle" required maxlength="240"><label for="fieldBody">Isi / penjelasan</label><textarea id="fieldBody" rows="5" required maxlength="5000"></textarea><label for="fieldExtra">Pilihan jawaban (khusus soal, pisahkan dengan |)</label><input id="fieldExtra" placeholder="Pilihan A | Pilihan B | Pilihan C | Pilihan D"><label for="fieldAnswer">Jawaban benar / kata kunci</label><input id="fieldAnswer" placeholder="Mis. B atau nama konsep"><label for="fieldCategory">Kategori</label><input id="fieldCategory" placeholder="Mis. Dasar SDLC"><button class="btn btn-primary" type="submit">Simpan perubahan</button><p id="crudMessage" class="form-message" aria-live="polite"></p></form></article><article class="panel"><div class="panel-head"><h3>Data tersimpan</h3><input id="adminSearch" class="compact-search" placeholder="Cari data…" aria-label="Cari data admin"></div><div id="adminRecords" class="admin-records"></div></article></div></div>
+      </section>
+      <footer><span>SDLC Notes · Materi edukasi untuk belajar mandiri</span><span>Blue + Cream edition</span></footer>
+    </div>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="data.js"></script><script src="app.js"></script>
+</body></html>
